@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(133, 212, 241);
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.info-section {
+  text-align: center;
+  background-color: #d9edf7; 
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 100; 
+}
+
+.info-section p {
+  margin: 5px 0;
+  color: #31708f; 
+}
+
+.payment-section {
+  background-color: #afebba; /* Different color */
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 100; 
+}
+
+.payment-section p {
+  margin: 5px 0;
+  color: green; 
+}
+
+.confirm-section {
+  background-color: #d9edf7; /* Different color */
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  z-index: 100; 
+}
+
+.confirm-section p {
+  margin: 5px 0;
+  color: #31708f; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}

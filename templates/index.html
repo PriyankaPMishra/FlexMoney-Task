@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yoga Class Admission Form</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/styles.css" rel="stylesheet">
+</head>
+<body >
+
+<div class="info-section">
+  <p> <strong> Join our Yoga Classes today! Experience peace and wellness.</strong></p>
+  <p> <strong> PS: You can enroll in ANY BATCH. Your batch CAN BE changed next month as needed. </strong> </p>
+</div>
+
+<div class="container mt-4">
+  <h2>Yoga Class Admission Form</h2>
+  <form id="admissionForm" action="{{url_for("form")}}" method="POST">
+    <div class="form-group">
+      <label for="email">E-Mail:</label>
+      <input type="text" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="age">Age:</label>
+      <input type="number" class="form-control" id="age" name="age" min="18" max="65" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone:</label>
+      <input type="number" class="form-control" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="batch">Select Batch:</label>
+      <select class="form-control" id="batch" name="batch" required>
+        <option value="6-7AM">6-7AM</option>
+        <option value="7-8AM">7-8AM</option>
+        <option value="8-9AM">8-9AM</option>
+        <option value="5-6PM">5-6PM</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="date">Date:</label>
+      <input type="date" class="form-control" id="enrollment_date" name="enrollment_date">
+    </div>
+    <button type="submit" class="btn btn-primary">Proceed To Payment</button>
+  </form>
+</div>
+
+<script src="static/js/index_script.js"></script>
+</body>
+</html>

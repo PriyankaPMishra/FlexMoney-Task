@@ -1,0 +1,36 @@
+<!-- view_users.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Records</title>
+</head>
+<body>
+    <h1>User Records</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Email</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone</th>
+                <th>Batch</th>
+                <th>Enrollment Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.user_id }}</td>
+                <td>{{ user.email or 'N/A' }}</td>
+                <td>{{ user.name or 'N/A' }}</td>
+                <td>{{ user.age or 'N/A' }}</td>
+                <td>{{ user.phone or 'N/A' }}</td>
+                <td>{{ user.batch or 'N/A' }}</td>
+                <td>{{ user.enrollment_date or 'N/A' }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
