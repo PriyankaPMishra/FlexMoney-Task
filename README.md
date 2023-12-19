@@ -44,15 +44,15 @@ Assumptions:
 ## SAMPLE OUTPUTS:
 
 - ENROLLMENT FORM:
-<img src="outputs/5.png" alt="enrollment form">
+<img src="outputs/3d.png" alt="enrollment form">
 <br>
 
 - PAYMENT FORM:
-<img src="outputs/4.png" alt="payment details">
+<img src="outputs/5d.png" alt="payment details">
 <br>
 
 - CONFIRMATION FORM:
-<img src="outputs/6.png" alt="confirmed payment">
+<img src="outputs/4d.png" alt="confirmed payment">
 <br>
 
 - USER DATABASE:
@@ -61,3 +61,16 @@ Assumptions:
 
 - PAYMENT DATABASE:
 <img src="outputs/2.png" alt="payment db"> 
+
+## DEPLOYMENT:
+
+- Deployed on PythonAnywhere.
+- URL: https://yogaflexm.pythonanywhere.com
+- NOTE: MAKE SURE TO ADD A NEW EMAIL, SO AS TO AVOID ERROR. (THE APP IS IN INITIAL STATE DUE TO TIME-CONSTRAINT)
+
+## PERSONAL NOTE:
+
+Even though the task requirement was preferably ReactJS for frontend, I chose HTML-CSS-JS-BootStrao because:
+- I focused on though-process and problem solving!
+- Learning ReactJS was a bit difficult for me, given my basic skills on JS. (Honesty is the best policy! 😉 )
+- Cuz, SIMPLICITY IS SOPHISTICATION!
