@@ -79,4 +79,4 @@ Assumptions:
 Even though the task requirement was preferably ReactJS for frontend, I chose HTML-CSS-JS-BootStrao because:
 - I focused on though-process and problem solving!
 - Learning ReactJS was a bit difficult for me, given my basic skills on JS. (Honesty is the best policy! 😉 )
-- Cuz, SIMPLICITY IS SOPHISTICATION!
+- Cuz, SIMPLICITY IS THE ULTIMATE SOPHISTICATION! 😊
