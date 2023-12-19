@@ -60,7 +60,13 @@ Assumptions:
 <br>
 
 - PAYMENT DATABASE:
-<img src="outputs/2.png" alt="payment db"> 
+<img src="outputs/2.png" alt="payment db">
+
+- ER DIAGRAM (HAND DRAWN):
+<img src="outputs/erd1.jpeg" alt="hand drawn ERD" height="800" width="1000">
+
+- ER DIAGRAM (ONLINE DRAWN):
+<img src="outputs/erd.png" alt="hand drawn ERD">  
 
 ## DEPLOYMENT:
 
